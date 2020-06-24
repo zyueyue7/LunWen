@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+  <display-name></display-name>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>org.travel.servlet.LoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SceneryServlet</servlet-name>
+    <servlet-class>org.travel.servlet.SceneryServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>addSceneryServlet</servlet-name>
+    <servlet-class>org.travel.servlet.addSceneryServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>queryAllSceneryServlet</servlet-name>
+    <servlet-class>org.travel.servlet.queryAllSceneryServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>deleteSceneryServlet</servlet-name>
+    <servlet-class>org.travel.servlet.deleteSceneryServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>updateSceneryServlet</servlet-name>
+    <servlet-class>org.travel.servlet.updateSceneryServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>querySceneryByIdServlet</servlet-name>
+    <servlet-class>org.travel.servlet.querySceneryByIdServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>queryAllRouteWeekServlet</servlet-name>
+    <servlet-class>org.travel.servlet.queryAllRouteWeekServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>queryRouteWeekByIdServlet</servlet-name>
+    <servlet-class>org.travel.servlet.queryRouteWeekByIdServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>addRouteWeekServlet</servlet-name>
+    <servlet-class>org.travel.servlet.addRouteWeekServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>deleteRouteWeekServlet</servlet-name>
+    <servlet-class>org.travel.servlet.deleteRouteWeekServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>updateRouteWeekServlet</servlet-name>
+    <servlet-class>org.travel.servlet.updateRouteWeekServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>RouteWeekServlet</servlet-name>
+    <servlet-class>org.travel.servlet.RouteWeekServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>NoteServlet</servlet-name>
+    <servlet-class>org.travel.servlet.NoteServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>NoteBoardServlet</servlet-name>
+    <servlet-class>org.travel.servlet.NoteBoardServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>NoteManegeServlet</servlet-name>
+    <servlet-class>org.travel.servlet.NoteManegeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>NoteAgreeServlet</servlet-name>
+    <servlet-class>org.travel.servlet.NoteAgreeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>NoteRefuseServlet</servlet-name>
+    <servlet-class>org.travel.servlet.NoteRefuseServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>NoteDeleteServlet</servlet-name>
+    <servlet-class>org.travel.servlet.NoteDeleteServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>NoteReplyServlet</servlet-name>
+    <servlet-class>org.travel.servlet.NoteReplyServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>NoteQueryByIdSevlet</servlet-name>
+    <servlet-class>org.travel.servlet.NoteQueryByIdSevlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>queryAllAgencyServlet</servlet-name>
+    <servlet-class>org.travel.servlet.queryAllAgencyServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>addAgencyServlet</servlet-name>
+    <servlet-class>org.travel.servlet.addAgencyServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>deleteAgencyServlet</servlet-name>
+    <servlet-class>org.travel.servlet.deleteAgencyServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>wtlinkServlet</servlet-name>
+    <servlet-class>org.travel.servlet.wtlinkServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>wtlinkOpServlet</servlet-name>
+    <servlet-class>org.travel.servlet.wtlinkOpServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>deleteWtlinkServlet</servlet-name>
+    <servlet-class>org.travel.servlet.deleteWtlinkServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>wtlinkIndexServlet</servlet-name>
+    <servlet-class>org.travel.servlet.wtlinkIndexServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/LoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SceneryServlet</servlet-name>
+    <url-pattern>/SceneryServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>addSceneryServlet</servlet-name>
+    <url-pattern>/addSceneryServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>queryAllSceneryServlet</servlet-name>
+    <url-pattern>/queryAllSceneryServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>deleteSceneryServlet</servlet-name>
+    <url-pattern>/deleteSceneryServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>updateSceneryServlet</servlet-name>
+    <url-pattern>/updateSceneryServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>querySceneryByIdServlet</servlet-name>
+    <url-pattern>/querySceneryByIdServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>queryAllRouteWeekServlet</servlet-name>
+    <url-pattern>/queryAllRouteWeekServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>queryRouteWeekByIdServlet</servlet-name>
+    <url-pattern>/queryRouteWeekByIdServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>addRouteWeekServlet</servlet-name>
+    <url-pattern>/addRouteWeekServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>deleteRouteWeekServlet</servlet-name>
+    <url-pattern>/deleteRouteWeekServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>updateRouteWeekServlet</servlet-name>
+    <url-pattern>/updateRouteWeekServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RouteWeekServlet</servlet-name>
+    <url-pattern>/RouteWeekServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>NoteServlet</servlet-name>
+    <url-pattern>/NoteServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>NoteBoardServlet</servlet-name>
+    <url-pattern>/NoteBoardServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>NoteManegeServlet</servlet-name>
+    <url-pattern>/NoteManegeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>NoteAgreeServlet</servlet-name>
+    <url-pattern>/NoteAgreeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>NoteRefuseServlet</servlet-name>
+    <url-pattern>/NoteRefuseServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>NoteDeleteServlet</servlet-name>
+    <url-pattern>/NoteDeleteServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>NoteReplyServlet</servlet-name>
+    <url-pattern>/NoteReplyServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>NoteQueryByIdSevlet</servlet-name>
+    <url-pattern>/NoteQueryByIdSevlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>queryAllAgencyServlet</servlet-name>
+    <url-pattern>/queryAllAgencyServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>addAgencyServlet</servlet-name>
+    <url-pattern>/addAgencyServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>deleteAgencyServlet</servlet-name>
+    <url-pattern>/deleteAgencyServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>wtlinkServlet</servlet-name>
+    <url-pattern>/wtlinkServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>wtlinkOpServlet</servlet-name>
+    <url-pattern>/wtlinkOpServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>deleteWtlinkServlet</servlet-name>
+    <url-pattern>/deleteWtlinkServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>wtlinkIndexServlet</servlet-name>
+    <url-pattern>/wtlinkIndexServlet</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list> 
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+  
+</web-app>

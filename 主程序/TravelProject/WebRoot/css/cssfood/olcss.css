@@ -1,0 +1,41 @@
+@font-face {
+  font-family: 'PT Sans Narrow';
+  font-style: normal;
+  font-weight: 400;
+  src: local('PT Sans Narrow'), local('PTSans-Narrow'), url(../fonts/UyYrYy3ltEffJV9QueSi4RdbPw3QSf9R-kE0EsQUn2A.woff) format('woff');
+}
+@font-face {
+  font-family: 'PT Sans Narrow';
+  font-style: normal;
+  font-weight: 700;
+  src: local('PT Sans Narrow Bold'), local('PTSans-NarrowBold'), url(../fonts/Q_pTky3Sc3ubRibGToTAYiylde52zikAzebNtJS89aM.woff) format('woff');
+}
+.mv{
+	width:50%;
+	height:400px;
+}
+.rec{
+	width:50%;
+	left:0px;
+
+	height:400px;
+}
+.mvl{
+	margin-top:-7%;
+	margin-left:-2%;
+	wigth:200ppx;
+	
+}
+.scrum{
+	   margin-top:30px;
+       font-size:18px;
+       font-family:Verdana, Geneva, sans-serif;
+       }
+.scrum li{
+        display:block;
+        float:left;
+        margin-left:0px;
+        text-align:center;
+        height:50px;
+        line-height:22px;
+}   

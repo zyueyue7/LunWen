@@ -1,0 +1,214 @@
+@CHARSET "UTF-8";
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-color: #fafafa;
+}
+li {
+	list-style: none;
+}
+ .clearfix:after {  content: ""; display: block; height: 0; clear: both; visibility: hidden;  }   
+ .clearfix {*zoom: 1;}   
+
+/* 导航栏部分 开始啦  */
+/*  .header {
+ 	height: 100px;
+ 	background-color: #fff;
+ }
+ .inner {
+ 	width: 1200px;
+ 	height: 100px;
+ 	background-color: pink;
+ 	margin: 0 auto;
+ 	line-height: 100px;
+ }
+ .logo {
+ 	height: 100px;
+ 	width: 226px;
+ 	background-color: red;
+ 	float: left;
+ }
+ .nav {
+ 	float: right;
+ }
+ .nav ul {
+ 	overflow: hidden;
+ }
+ .nav li {
+ 	float: left;
+ 	margin: 0 20px;
+ }
+ .nav li a {
+ 	color: #333;
+ 	text-decoration: none;
+ }
+  .nav li a:hover{
+  	color: #2288f6;
+  }  */
+ /* 导航栏部分 结束啦  */
+ 
+ 
+ /* 轮播图部分 开始啦  */
+ .banner {
+ 	width: 100%;
+ 	height: 620px;
+  background-color: green; 
+ 	/* background: url(../images/index/sdl4.jpg) no-repeat  top center; */
+ }
+ /* 轮播图部分 结束啦  */
+ 
+ /* 我们的服务 开始啦  */
+ .service {
+ 	width: 1055px;
+ 	/* height: 1500px;  */
+ 	/* background-color: pink;  */
+ 	margin: 75px auto 0;	
+ }
+ .service-hd {
+ 	border-top: 1px solid #ccc;
+ 	margin: 0 25px;
+ 	/* 该盒子不设宽度，设置外边距之后，内容自动往里面缩 */
+ }
+ .service-hd h3 {
+ 	width: 168px;
+ 	height: 46px;
+ 	margin: 0 auto;
+ 	/* border: 1px solid #ccc; */
+ 	margin-top: -15px;
+ }
+ .service-hd p {
+ 	font-size: 12px;
+ 	color: #666;
+ 	text-align: center;
+ 	margin-top: 15px;
+ 	/* margin: 15px auto 0; margin是对盒子实行居中，不是对文字，这个盒子没有宽度，所以margin：auto不行*/
+ }
+ .service-bd {
+ 	margin-top: 40px;
+ 	overflow: hidden;
+ }
+ .service-bd li {
+ 	width: 319px;
+ 	height: 450px;
+ 	background-color: #fff;
+ 	float: left;
+ 	border: 1px solid #e7e8e9;
+ }
+ .zhuti {
+ 	margin: 0 46px;
+ }
+ .service-bd img {
+ 	width: 248px;
+ 	height: 130px;
+ 	margin: 40px 35px;
+ }
+ .service-bd h3 {	
+ 	font-size: 18px;
+ 	font-weight: normal;
+ 	height: 40px;
+ 	line-height: 40px;
+ 	text-align: center;
+ }
+ .service-bd p {
+ 	font-size: 12px;
+ 	color: #666;
+ 	width: 248px;
+ 	margin: 0 auto;
+ 	line-height: 26px;
+ }
+ .service-bd a {
+ 	display: block;
+ 	width: 148px;
+ 	height: 38px;
+ 	line-height: 38px;
+ 	border: 1px solid #ff9412;
+ 	margin: 30px auto 0;
+ 	text-align: center;
+ 	color: #ff9412;
+ 	font-size: 12px;
+ 	text-decoration: none;
+ 	border-radius: 5px;
+ }
+  .service-bd a:hover {
+  	color: #fff;
+	background-color: #ff9412;
+  }
+ /* 我们的服务 结束啦  */
+ 
+ /* 运城风光 开始啦  */
+ .scenery {
+ 	width: 1055px;
+ 	/* height: 1000px; */
+ 	/* background-color: green; */
+ 	margin: 75px auto 0;
+ }
+ .scenery-bd {
+ 	margin-top: 68px;
+ 	position: relative;
+ }
+ .scenery-bd li {
+ 	width: 322px;
+ 	height: 211px;
+ 	background-color: pink;
+ 	float: left;
+ 	position: relative;
+ }
+ .scenery-bd-mid {
+ 	margin: 0 44.5px;
+ }
+ .text {
+ 	height: 45px;
+ 	width: 100%;
+ 	position: absolute;
+ 	left: 0;
+ 	bottom: 0;
+ 	background: rgba(0,0,0,0.2);
+ 	line-height: 45px;
+ 	text-align: center;
+ 	font-size: 12px;
+ }
+ .mask {
+ 	width: 100%;
+ 	height: 100%;
+ 	background: rgba(0,0,0,0.5) url(../images/index/fdj.png) no-repeat center;
+ 	position: absolute;
+ 	left: 0;
+ 	top: 0;
+ 	display: none; 
+ }
+ .scenery-bd li:hover .mask {
+ 	display: block;
+ }
+ .left , .right {
+ 	width: 60px;
+ 	height: 60px;
+ 	background: rgba(0,0,0,0.2);
+ 	position: absolute;
+ 	top: 50%;
+ 	margin-top: -30px;
+ 	text-align: center;
+	line-height: 60px;
+	color: #fff;
+	text-decoration: none;
+	font-size: 25px;
+	border-radius: 50%;
+ }
+ .left {
+ 	left: -90px;
+ }
+ .right {
+ 	right: -90px;
+ }
+ .scenery-bd a:hover {
+	background: rgba(0,0,0,0.5);
+}
+ /* 运城风光  结束啦  */
+  .food {
+ 	width: 1055px;
+ 	/* height: 1000px;  */
+ 	/* background-color: orange; */
+ 	margin: 75px auto 0;
+ }
+ 
